@@ -14,19 +14,19 @@ const Navbar = () => {
         </div>
      
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/Background+Overlay.png" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+            <img src="/434395442_120210773961390359_2330267306930258219_n.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
         </div>
         
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/Background+Overlay.png" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+            <img src="/Screenshot (91).png" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
         </div>
        
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/Background+Overlay.png" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+            <img src="/Screenshot (88).png" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
         </div>
         
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/Background+Overlay.png" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+            <img src="/WhatsApp Image 2024-05-24 at 4.20.12 PM.jpeg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Fourth Slider Image" />
         </div>
     </div>
    
