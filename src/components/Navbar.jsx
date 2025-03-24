@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
 
 
-<div id="default-carousel" className="relative w-full" data-carousel="slide">
+<div id="default-carousel" className="relative w-full" data-carousel="slide" style={{zIndex :'-1'}}>
    
     <div className="relative h-100 overflow-hidden rounded-lg md:h-96">
          

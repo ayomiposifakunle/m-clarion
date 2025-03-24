@@ -3,7 +3,7 @@ import React from 'react'
 const Card = () => {
   return (
     <>
-   <div className='' style={{backgroundColor: 'grey'}}>
+   <div className='' style={{backgroundColor: 'grey'}} id='features'>
     
    <div className='text-white p-8' style={{backgroundColor: 'black'}}>
     <h1 className='text-3xl font-bold'>WHY SIMPLE RISK?</h1>
@@ -57,11 +57,11 @@ const Card = () => {
     
         </div>
 
-        <h1 className='text-center font-bold text-2xl my-10 text-white'>LEARN MORE ABOUT SIMPLERISK</h1>
-    <div className="image container m-auto flex justify-center pb-10">
-{/* <img src="/images (1).png" alt="" className='flex justify-center h-100 w-100' /> */}
-<video autoPlay muted style={{position: 'relative', zIndex: '+1', border: 'none', height: '400px', width: '400px'}} className='flex justify-center h-100 w-100'>
-    <source src="\WhatsApp Video 2024-11-20 at 11.46.28 AM.mp4" type="video/mp4" />
+        <h1 className='text-center font-bold text-2xl mt-10 text-white'>LEARN MORE ABOUT M-CLARION</h1>
+    <div className="pb-10">
+        <img src="/images__1_-removebg-preview.png" className='flex justify-center mx-auto size-90' alt="pc image" style={{zIndex: '0', position: 'relative', top: '300px'}}  />
+<video className='flex justify-center mx-auto w-60' controls muted style={{}}>
+  <source src="/WhatsApp Video 2024-11-20 at 11.46.28 AM.mp4" type="video/mp4" />
 </video>
     </div>
    </div>

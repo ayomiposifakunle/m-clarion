@@ -3,7 +3,7 @@ import React from 'react'
 const LatestSection = () => {
   return (
     <>
-    <div style={{backgroundColor: 'grey'}} className='py-15'>
+    <div style={{backgroundColor: 'grey'}} className='py-15' id='blog'>
     <h1 className='text-center font-bold text-2xl text-white my-10'>THE LATEST FROM SIMPLERISK BLOG</h1>
     <div className='flex flex-row justify-center'>
 
