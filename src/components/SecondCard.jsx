@@ -1,76 +1,19 @@
 import React from 'react'
+import KcProps from './KcProps'
 
 const SecondCard = () => {
   return (
  <>
- 
-<div className='py-15 text-white' style={{backgroundColor: 'black'}}>
-<h1 className='text-center font-bold text-2xl'>RISK KNOWS NO BOUNDARIES</h1>
-    <p className='text-center'>SimpleRisk is a solution that scales with the evolving requirement of your organization</p>
-
-<div className='first-row flex flex-row justify-evenly'>
-
-<div style={{backgroundColor: 'grey'}} class="max-w-sm m-5 p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-    </a>
-    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-    <a style={{backgroundColor: 'red'}} href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-        MORE
-        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-        </svg>
-    </a>
+<div className='mt-5 py-15 text-white' style={{backgroundColor: '#eec0c8'}}>
+<h1 className='text-black text-center font-bold text-2xl'>KEY CHALLENGES GRC SEEKS TO ADDRESS</h1>
+<div className='flex flex-column justify-center'>
+<KcProps title="INADEQUATE TRANSPARENCY" text="Inadequate transparency across multiple business units and functions, combined with a request for more timely information on risks."/>
+<KcProps title="INCREASING COST OF COMPLIANCE" text="Manual processes, that are not scalable, efficient, or effective, are still being used to address expanding regulatory landscape."/>
 </div>
 
-
-
-<div style={{backgroundColor: 'grey'}} class="max-w-sm p-6 m-5 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-    </a>
-    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-    <a style={{backgroundColor: 'red'}}href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-        MORE
-        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-        </svg>
-    </a>
-</div>
-
-</div>
-
-<div className='second-row flex flex-row justify-evenly'>
-
-
-<div style={{backgroundColor: 'grey'}} class="max-w-sm p-6 m-5 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-    </a>
-    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-    <a style={{backgroundColor: 'red'}}href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-        MORE
-        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-        </svg>
-    </a>
-</div>
-
-
-
-<div style={{backgroundColor: 'grey'}} class="max-w-sm p-6 m-5 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-    </a>
-    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-    <a style={{backgroundColor: 'red'}} href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-        MORE
-        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-        </svg>
-    </a>
-</div>
-
+<div className='flex flex-column justify-center'>
+<KcProps title="INADEQUATE ANALYTICS AND DATA" text="Lack of risk and business information to enable data visualization, analytics, and insights for sound business decison-making."/>
+<KcProps title="RELIANCE ON EXTERNAL PARTIES" text="There is greater reliance on 3rd and 4th parties that introduce several risks that can impact security, compliance, and business continuity." />
 </div>
 </div>
  </>

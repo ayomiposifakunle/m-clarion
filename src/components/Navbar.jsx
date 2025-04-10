@@ -3,31 +3,35 @@ import React from 'react'
 const Navbar = () => {
   return (
     <>
-
+<div className='flex flex-col' style={{position: 'absolute', zIndex: '+3', right: '1px', bottom: '180px'}}>
+     <button type="button" class="my-2 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 text-white dark:focus:ring-blue-800" style={{backgroundColor: '#FF00BF'}}>Schedule A Demo</button>
+      <button type="button" class="my-2 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 text-white dark:focus:ring-blue-800" style={{backgroundColor: '#FF00BF'}}>Download Our Brouche</button>
+      <button type="button" class="my-2 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 text-white dark:focus:ring-blue-800" style={{backgroundColor: '#FF00BF'}}>Speak With Our Expert</button>
+     </div>
 
 <div id="default-carousel" className="relative w-full" data-carousel="slide" style={{zIndex :'-1'}}>
-   
+
     <div className="relative h-100 overflow-hidden rounded-lg md:h-96">
          
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/Background+Overlay.png" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+            <img src="/man_mitiget.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
         </div>
      
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/434395442_120210773961390359_2330267306930258219_n.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+            <img src="/man2_mitiget.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
         </div>
         
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/Screenshot (91).png" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+            <img src="/governance_mitiget.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
         </div>
        
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/Screenshot (88).png" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+            <img src="/boardroom_mitiget.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
         </div>
         
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+        {/* <div className="hidden duration-700 ease-in-out" data-carousel-item>
             <img src="/WhatsApp Image 2024-05-24 at 4.20.12 PM.jpeg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Fourth Slider Image" />
-        </div>
+        </div> */}
     </div>
    
     <div className="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
@@ -35,7 +39,7 @@ const Navbar = () => {
         <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
         <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
         <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-        <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+        {/* <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button> */}
     </div>
 
     <button type="button" className="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
