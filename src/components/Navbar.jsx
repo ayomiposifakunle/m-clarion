@@ -4,9 +4,9 @@ const Navbar = () => {
   return (
     <>
 <div className='flex flex-col' style={{position: 'absolute', zIndex: '+3', right: '1px', bottom: '180px'}}>
-     <button type="button" class="my-2 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 text-white dark:focus:ring-blue-800" style={{backgroundColor: '#FF00BF'}}>Schedule A Demo</button>
-      <button type="button" class="my-2 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 text-white dark:focus:ring-blue-800" style={{backgroundColor: '#FF00BF'}}>Download Our Brouche</button>
-      <button type="button" class="my-2 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 text-white dark:focus:ring-blue-800" style={{backgroundColor: '#FF00BF'}}>Speak With Our Expert</button>
+     <button type="button" class="my-2 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 text-white dark:focus:ring-blue-800" style={{backgroundColor: '#FF0099'}}>Schedule A Demo</button>
+      <button type="button" class="my-2 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 text-white dark:focus:ring-blue-800" style={{backgroundColor: '#FF0099'}}>Download Our Brouche</button>
+      <button type="button" class="my-2 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 text-white dark:focus:ring-blue-800" style={{backgroundColor: '#FF0099'}}>Speak With Our Expert</button>
      </div>
 
 <div id="default-carousel" className="relative w-full" data-carousel="slide" style={{zIndex :'-1'}}>
@@ -14,19 +14,19 @@ const Navbar = () => {
     <div className="relative h-100 overflow-hidden rounded-lg md:h-96">
          
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/man_mitiget.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+            <img src="/mitiget_m-clarion_integrated_capabilities.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
         </div>
      
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/man2_mitiget.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+            <img src="/mitiget_m-clarion_achieve_objectives_in_reliably.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
         </div>
         
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/governance_mitiget.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+            <img src="/mitiget_m-clarion_address_uncertainty.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
         </div>
        
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/boardroom_mitiget.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+            <img src="/mitiget_m-clarion_enabling_organization.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
         </div>
         
         {/* <div className="hidden duration-700 ease-in-out" data-carousel-item>
@@ -65,3 +65,25 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+
+
+// Slider 1 Text overlay
+// Main Title: Your Integrated Collection of Capabilities
+// Tagline:  Be forward-thinking organization with M-Clarion to enable success.
+// Button: Read more...
+
+// Slider 2 Text overlay
+// Main Title: Enable Achieving Objectives In A Reliable Manner
+// Tagline:  M-Clarion supports and improves business, making it a critical piece of business operations.
+// Button: Read more...
+
+// Slider 3 Text overlay
+// Main Title: Address Uncertainty, and Act With Integrity
+// Tagline:  M-Clarion gives total visibility with data for sound decision-making.
+// Button: Read more...
+
+// Slider 4 Text overlay
+// Main Title: Keep Your Corporate Vision On Track, Go For It.
+// Tagline:  M-Clarion enables performance with transparency, effective risk management with sustained collaboration.
+// Button: Read more...

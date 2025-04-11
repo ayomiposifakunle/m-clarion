@@ -1,27 +1,14 @@
 import React from 'react'
-import ReactPlayer from './ReactPlayer'
+import Nav from '../components/Nav'
+import Foot from '../components/Foot'
+import Card from './../components/Card';
+import Features1 from './../components/Features1';
 
-const Card = () => {
-
-function buttonEffect(){
-  const but =  document.getElementById('butt');
-  but.style.backgroundColor = 'green';
-}
-
-function unButtonEffect(){
-    const but =  document.getElementById('butt');
-    but.style.backgroundColor = '#FF0099';
-}
-
-function popup(){
-    alert('more info');
-}
-
+const Features = () => {
   return (
-    <>
-   <div id='features'>
-    
-   <div className='text-black p-8'>
+    <div>
+      <Nav />
+      <div className='text-black p-8'>
     <h1 style={{color: '#FF0099'}} className='text-2xl font-bold'>AN INTEGRATED APPROACH TO GRC POWERED BY AI</h1>
 <h3 style={{color: '#FF0099'}} className='font-bold'>This Is Where Intelligence Meets Integrity in GRC for Business Success.</h3>
     <p className='m-3'>M-clarion is distributed by its capability to align risk with business objectives, which empowers your organization to reliably accomplish its objectives, navigate through uncertainties, and showcase integrity.
@@ -78,15 +65,12 @@ function popup(){
     </div>
     
         </div>
-
-        <h1 className='text-center font-bold text-2xl my-10 text-black'>LEARN MORE ABOUT M-CLARION</h1>
-    <div className="py-5 bg-black" style={{display : 'flex', justifyContent : 'center', margin : '0 auto'}}>
-    <ReactPlayer />
+      <div className='bg-[#FF0099]'>
+      <Features1 />
+      </div>
+      <Foot />
     </div>
-
-   </div>
-    </>
   )
 }
 
-export default Card
+export default Features

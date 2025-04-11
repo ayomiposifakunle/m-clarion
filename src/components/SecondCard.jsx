@@ -4,7 +4,7 @@ import KcProps from './KcProps'
 const SecondCard = () => {
   return (
  <>
-<div className='mt-5 py-15 text-white' style={{backgroundColor: '#eec0c8'}}>
+<div className='py-15 text-white' style={{backgroundColor: '#FF0099'}}>
 <h1 className='text-black text-center font-bold text-2xl'>KEY CHALLENGES GRC SEEKS TO ADDRESS</h1>
 <div className='flex flex-column justify-center'>
 <KcProps title="INADEQUATE TRANSPARENCY" text="Inadequate transparency across multiple business units and functions, combined with a request for more timely information on risks."/>

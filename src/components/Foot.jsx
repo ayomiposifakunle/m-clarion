@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Foot = () => {
   return (
@@ -49,32 +50,32 @@ const Foot = () => {
             </div>
 
             <div class="mt-6 lg:mt-0 lg:flex-1">
-                <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                <div class="grid grid-cols-1 gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                     <div>
                         <h3 class="text-gray-700 uppercase dark:text-white">About</h3>
-                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Company</a>
-                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">community</a>
-                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Careers</a>
+                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Governance</a>
+                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Risk</a>
+                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Compliance</a>
                     </div>
 
                     <div>
-                        <h3 class="text-gray-700 uppercase dark:text-white">Blog</h3>
-                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Tec</a>
-                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Music</a>
+                        <h3 class="text-gray-700 uppercase dark:text-white">QuickLinks</h3>
+                        <Link class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline" to='/blog'>Blog</Link>
+                        <Link class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline" to='/faq'>FAQ</Link>
                         <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Videos</a>
                     </div>
 
-                    <div>
+                    {/* <div>
                         <h3 class="text-gray-700 uppercase dark:text-white">Products</h3>
                         <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Mega </a>
                         <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Aperion</a>
                         <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Meraki </a>
-                    </div>
+                    </div> */}
 
                     <div>
                         <h3 class="text-gray-700 uppercase dark:text-white">Contact</h3>
-                        <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">+2347012345678</span>
-                        <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">m-clarion@gmail.com</span>
+                        <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">+234 916 264 4779</span>
+                        <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">www.m-clarion.com</span>
                     </div>
                 </div>
             </div>
@@ -83,7 +84,7 @@ const Foot = () => {
         <hr class="h-px text-white bg-white my-6 border-none dark:bg-gray-700" />
 
         <div>
-            <p style={{color: '#FF69B4'}} class="font-bold text-center text-gray-500 dark:text-gray-400">© M-clarion 2025</p>
+            <p style={{color: '#FF0099'}} class="font-bold text-center text-gray-500 dark:text-gray-400">© M-clarion 2025</p>
         </div>
     </div>
 </footer>
