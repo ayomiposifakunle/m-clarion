@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+/* Import Flowbite styles */
+@import 'flowbite';
+
+
+*{
+ box-sizing: border-box;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
